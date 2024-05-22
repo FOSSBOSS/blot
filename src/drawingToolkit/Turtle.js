@@ -13,7 +13,20 @@ export class Turtle {
       [ [0, 0] ]
     ]
   }
-
+  
+function polygon(sideLength, sides) {
+   // const t = new Turtle();
+      if (sides <= 2) {
+         return;     
+    }
+    const angle = 360 / sides;
+    
+    for (let i = 0; i < sides; i++) {
+        t.forward(sideLength);
+        t.right(angle);
+    }
+}
+  
   up() {
     if (!this.drawing) return this
     this.drawing = false
