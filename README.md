@@ -1,3 +1,6 @@
+The central goal of this fork is to expantiate the Turtle.js functions with methods typcial to the Python Standard library where applicable, add enhanced functionality, and error checking. 
+Other future features, will be to integrate an IO interface that makes this project in to an etch-a-sketch clone using rotary encoders.
+
 # Blot, the plotter bot from Hack Club
 
 **[🕸 Landing Page](https://blot.hackclub.com)** | **[💻 Online Editor](https://blot.hackclub.com/editor)** | **[👀 Gallery](https://blot.hackclub.com/gallery)**
